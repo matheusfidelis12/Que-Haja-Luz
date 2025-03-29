@@ -1,0 +1,138 @@
+
+header{
+  background-color: black;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+#logo{
+  display: flex;
+  text-align: start;
+}
+header h1, p{
+  font-size: 40px;
+}
+
+
+nav{
+  border: solid ;
+  display: flex;
+  padding: 5px;
+}
+nav a{
+  display: flex;
+  padding-top: 20px;
+}
+section{
+  display: flex;
+}
+section h1{
+  font-size: 40px;
+  text-align: center;
+}
+section span{
+  display: flex;
+  /* border: solid; */
+  padding: 10px;
+  font-size: 10px;
+  min-width: 50px; max-width: 200px;
+}
+section p{
+  font-size: 25px;
+}
+.container{
+  min-width: 20px;   max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  height: 100%;
+   border: solid;
+}
+#container1{
+  flex-wrap:wrap ;
+  justify-content: center;
+  display: flex;
+  padding-top: 50px;
+  column-gap: 100px;
+  
+  /* border: solid red; */
+  min-width: 20px; max-width: 1500px; 
+}
+#container2{
+  justify-content: center;
+  margin-top: 100px;
+  padding: 100px 10px;
+  display: flex;
+  row-gap: 50px;
+  column-gap: 20px;
+  flex-wrap: wrap;
+  flex-direction: row;
+  /* border: solid rgb(81, 0, 255); */
+  width: 100%;
+  
+}
+
+
+.info{
+  width: 600px;
+  margin: 0 0 0 20px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  /* border: solid green; */
+  min-width: 10px;  max-width: 300px;
+
+}
+.info2{
+  /* border: solid;  */
+  margin: 2px;
+  min-width: 50px; max-width: 200px;
+  font-size: 19px;
+}
+.imagem{
+  margin-top: 50px;
+  align-content: center;
+  justify-items: center;
+   /* border: solid yellow; */
+  min-height: 20px; max-height: 400px;
+  min-width: 10px;  max-width: 300px;
+}
+#lustres-pendentes{
+  /* border: solid ; */
+margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+}
+.imagem1{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  margin:0 50px 0 10px;
+  /* border: solid rgb(255, 0, 221); */
+  width: 300px; height: 500px;
+}
+#img{
+  /* border: solid blue; */
+  display: flex;
+  min-width: 1px;  max-width: 300px;
+}
+button{
+  height: 70px; width: 70px;
+  border-radius: 50%;
+  border: none;
+  background-color: yellow;
+  text-align: center;
+  box-shadow: 0px 0px 3px 0px  rgb(146, 146, 15);
+  position: fixed;
+  right: 10px;
+  bottom: 200px;  
+}
+
+  
+
+
+
+
+
+
