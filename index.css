@@ -15,7 +15,7 @@ header h1, p{
 
 
 nav{
-  border: solid ;
+ 
   display: flex;
   padding: 5px;
 }
@@ -47,7 +47,7 @@ section p{
   flex-wrap: wrap;
   align-items: center;
   height: 100%;
-   border: solid;
+   /* border: solid; */
 }
 #container1{
   flex-wrap:wrap ;
